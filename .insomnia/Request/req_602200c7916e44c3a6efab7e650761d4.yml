@@ -1,9 +1,9 @@
 _id: req_602200c7916e44c3a6efab7e650761d4
 type: Request
 parentId: wrk_d2e21106d6a44b94ad29b9279a8d4eba
-modified: 1654208071843
+modified: 1654208431360
 created: 1654181131152
-url: https://httpbin.org/basic-auth/admin/pass
+url: https://httpbin.org/basic-auth/{{ _.usuario }}/{{ _['contrasena'] }}
 name: login
 description: ""
 method: GET
