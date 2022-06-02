@@ -1,0 +1,31 @@
+_id: req_9e40c93bb8cd4a7bbfd4ff5c07ab13c6
+type: Request
+parentId: wrk_d2e21106d6a44b94ad29b9279a8d4eba
+modified: 1654209538878
+created: 1654209394473
+url: http://api.mathjs.org/v4/
+name: math
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-2
+      {
+        "expr": [
+          "a = 2+5"
+        ]
+      }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_173d187f8ae2426abbcb8dfb58921f73
+authentication: {}
+metaSortKey: -1654209394473
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

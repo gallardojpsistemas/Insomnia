@@ -1,0 +1,37 @@
+_id: req_ce131c80436f436e9c94fa4f6bf1238d
+type: Request
+parentId: wrk_d2e21106d6a44b94ad29b9279a8d4eba
+modified: 1654209949824
+created: 1654209469598
+url: http://api.mathjs.org/v4/
+name: math2
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: "  {
+
+    \    \"expr\": [
+
+    \      \"a = {% response 'body', 'req_9e40c93bb8cd4a7bbfd4ff5c07ab13c6',
+    'b64::JC5yZXN1bHRbMF0=::46b', 'never', 60 %}+5\"
+
+    \    ]
+
+    \  }
+
+    \  "
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_01ff908e53fb4b44ab27837289c8a2df
+authentication: {}
+metaSortKey: -1654209469598
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
