@@ -1,16 +1,21 @@
 _id: req_602200c7916e44c3a6efab7e650761d4
 type: Request
 parentId: wrk_d2e21106d6a44b94ad29b9279a8d4eba
-modified: 1654181131152
+modified: 1654208071843
 created: 1654181131152
-url: ""
-name: New Request
+url: https://httpbin.org/basic-auth/admin/pass
+name: login
 description: ""
 method: GET
 body: {}
 parameters: []
 headers: []
-authentication: {}
+authentication:
+  type: basic
+  useISO88591: false
+  disabled: false
+  username: admin
+  password: pass
 metaSortKey: -1654181131152
 isPrivate: false
 settingStoreCookies: true
