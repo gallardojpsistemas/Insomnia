@@ -1,0 +1,16 @@
+_id: env_0336df1bde47492ca7a49190733dba4b
+type: Environment
+parentId: env_8307f35ff6c5d9347b63e7a5eba7534920828579
+modified: 1654208417975
+created: 1654208293768
+name: Test
+data:
+  usuario: admin
+  contrasena: pass
+dataPropertyOrder:
+  "&":
+    - usuario
+    - contrasena
+color: null
+isPrivate: false
+metaSortKey: 1654208293768
